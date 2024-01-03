@@ -1,0 +1,132 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to left, #defafe, #cffcf1, #defafe);
+  background-size: cover;
+  height: 100vh;
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.digital-heading {
+  color: #1e293b;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  text-align: center;
+  padding-top: 70px;
+}
+.img-and-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 70vh;
+  width: 34vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 90px;
+}
+.paragraph-container {
+  background-color: #ffff;
+  height: 15vh;
+  width: 8vw;
+  border-top-left-radius: 260px;
+  border-top-right-radius: 290px;
+  border-bottom-right-radius: 290px;
+  border-bottom-left-radius: 280px;
+  align-self: center;
+}
+
+.time-paragraph {
+  text-align: center;
+}
+.getElapsedSecondsInTimeFormat {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+}
+.button {
+  background-color: transparent;
+  border: transparent;
+}
+.image-url {
+  height: 30px;
+  width: 29px;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+.start-and-restart-btn {
+  display: flex;
+  flex-direction: row;
+}
+.start-btn {
+  display: flex;
+  flex-direction: row;
+}
+.paragraph {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.pause-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+.increse-and-decrease-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.set-timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.set-timer-paragraph {
+  color: #0f172a;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.plus-btn {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  background-color: transparent;
+  border: transparent;
+}
+.number-container {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  height: 40px;
+  width: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.num-paragraph {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  text-align: center;
+}
